@@ -1,0 +1,19 @@
+#nivel: 
+4
+#Jugador -----  PosX PosY PosXInI posYIni Vida estaEnPlataforma ImagenActual Activo Direccion posicionMovimiento posicionIdle Disparando enMovimiento saltando bajando saltoParabolico subiendo aim posicionActualDisparo enemigosMuertos posicionMuerte
+147 345 520 345 90 true ./data/Jugador/Iddle/Idle6D.png true D 2 1 false false false false false false N 1 300 1
+#Aranas -----  PosX PosY PosXInI posYIni Vida estaEnPlataforma ImagenActual Activo Direccion posicionMovimiento posicionIdle Disparando Destruido
+40 860 20 -30 60 true ./data/Spider/Walk/walk4D.png true D 1 1 false false
+516 240 500 -30 60 true ./data/Spider/Walk/walk2I.png true I 3 1 false false
+700 165 700 -30 60 true ./data/Spider/Walk/walk4I.png true I 1 1 false false
+1080 860 1002 -30 60 true ./data/Spider/Walk/walk4D.png true D 1 1 false false
+200 165 200 -30 60 true ./data/Spider/Walk/walk4I.png true I 1 1 false false
+404 565 400 350 60 true ./data/Spider/Walk/walk3I.png true I 4 1 false false
+684 315 700 200 60 true ./data/Spider/Walk/walk3I.png true I 4 1 false false
+#Robots Voladores -----  PosX PosY PosXInI posYIni Vida ImagenActual Activo Direccion Disparando Destruido
+232 20 20 600 80 ./data/EnemigosGif/FlyingRobot.gif true D true false
+#CrabBots -----  PosX PosY PosXInI posYIni Vida ImagenActual Activo Direccion Disparando Destruido
+785 680 200 680 120 ./data/EnemigosGif/RobotI.gif true I false false
+#Boss -----  PosX PosY PosXInI posYIni Vida ImagenActual Activo Direccion Disparando posicionIdle posicionMovimiento enMovimiento posicionCompuerta Destruido
+700 -70 700 -70 2000 ./data/BossHelicopter/Idle7.png true D false 8 0 false 0 false
+
